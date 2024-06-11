@@ -1,0 +1,27 @@
+section.feedback-section {
+    background: #010715;
+    padding: 70px 0px;
+}
+.card-title.feedback-company{
+    color: #0d6efd;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.card-title.feedback-company .border-title {
+    background: #0d6efd;
+    width: 100px;
+    height: 2px;
+    transform: rotate(0deg);
+    display: inline-block;
+    margin-right: 3px;
+}
+.container.feedback-cnt h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container.feedback-cnt p {
+    color: #fff;
+    font-size: 15px;
+}

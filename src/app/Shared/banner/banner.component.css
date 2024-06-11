@@ -1,0 +1,7 @@
+.bannersec{
+    background: url(../../../assets/images/bannner.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    z-index: -1;
+}

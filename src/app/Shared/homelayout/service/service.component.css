@@ -1,0 +1,95 @@
+section.service-section{
+    background:url(../../../../assets/images/servicemap.png) #182132;
+    padding: 70px 0px;
+    background-size: contain;
+}
+.about-card{
+    background: url(../../../../assets/images/buble.png) no-repeat top -98px right -99px #030617;
+    border-radius: 3px;
+}
+.container.card-sec {
+    position: relative;
+    top: -50px;
+}
+.container.card-sec .card-title{
+    color: #fff;
+    font-size: 23px;
+    font-family: "Roboto", sans-serif;
+}
+.container.card-sec .card-text{
+    color: #fff;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+.container.card-sec .material-symbols-outlined{
+    color: #376bfc;
+    background: #193c5a;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.container.card-sec .card-refer .material-symbols-outlined{
+    color: #fff;
+    background: #8299ff;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.container.card-sec .arrow.material-symbols-outlined.float-end {
+    background: #00001e ! Important;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.container.about-cnt h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container.about-cnt p{
+    color: #fff;
+    font-size: 15px;
+}
+.about-cnt .about-card .card-title{
+    color: #fff;
+    font-size: 26px;
+    margin: 10px 10px;
+}
+.about-cnt .about-card .card-text{
+    color: #fff;
+    font-size:13px;
+}
+.card.about-card span {
+    background: #0e173e;
+    color: #475cab;
+    padding: 4px;
+}
+
+h5.card-title.about-card-title .border-title {
+    background: #2d4166;
+    width: 52px;
+    height: 2px;
+    transform: rotate(0deg);
+    display: inline-block;
+    margin-right: 3px;
+}
+.card-title.about-compan {
+    color: #0d6efd;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+.card-title.about-compan .border-title {
+    background: #0d6efd;
+    width: 100px;
+    height: 2px;
+    transform: rotate(0deg);
+    display: inline-block;
+    margin-right: 3px;
+}
+.container.about-cnt img {
+    width: 45px;
+    margin: 20px 5px;
+
+}
