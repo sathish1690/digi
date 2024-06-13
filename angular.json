@@ -29,7 +29,8 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/css/bootstrap.min.css"
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/brands.css"
             ],
             "scripts": [
               "src/assets/js/jquery.min.js",
@@ -97,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

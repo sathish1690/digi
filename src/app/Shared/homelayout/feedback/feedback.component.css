@@ -25,3 +25,49 @@ section.feedback-section {
     color: #fff;
     font-size: 15px;
 }
+
+ul.nav.nav-tabs.mt-4 {
+    border: 0px;
+}
+li.nav-item a{
+    background: #131b2a;
+    color: #fff;
+    border-radius: 0px;
+}
+.nav-tabs .nav-item .nav-link.active {
+   
+    background: #0d6efd;
+    border-radius: 0px;
+    color: #fff;
+}
+.feed-subtitle{
+    font-size: 20px;
+    color: #fff;
+}
+
+.feedback-faq button.accordion-button.collapsed {
+    background: transparent!important;
+    color: #fff!important;
+    border: none!important;
+}
+
+.feedback-faq .accordion-item {
+    background: transparent;
+    border: none!important;
+    border-bottom: 2px solid #fff!important;
+}
+.feedback-faq .accordion-body {
+    color: #fff;
+}
+.feedback-faq .accordion-button:not(.collapsed) {
+    background: transparent;
+    color: #fff;
+}
+.feedback-faq  .accordion-button:focus {
+    border: none!important;
+    border-bottom: 2px solid #fff!important;
+    box-shadow: none;
+}
+.accordion-item:last-of-type {
+    border-radius:0px;
+}

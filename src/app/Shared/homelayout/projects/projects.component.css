@@ -1,0 +1,77 @@
+.project-section{
+    background: #182132;
+    padding: 50px 0px;
+}
+.project-section p{
+color: #fff;
+font-size: 16px;
+}
+.project-section h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.project-section span.material-symbols-outlined {
+    color: #376bfc;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.business-section{
+    background:url(../../../../assets/images/projectbg.png)no-repeat #010715;
+    padding: 50px 0px;
+    background-size: cover;
+}
+.getstarted{
+    background-image:linear-gradient(to right, #4aafe8, #5e58c3);
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    top: -81px;
+}
+.connect-btn, .connect-btn:hover{
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+.getstarted h2{
+    margin: 0px;
+    font-size: 30px;
+}
+.project-subtitle{
+    color: #0d6efd;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.project-title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.project-dtls{
+    background: #182133;
+    padding: 15px;
+    border-radius: 0px;
+    margin-right: 8px;
+}
+.btn.btn-dark.project-dtls.active {
+    background: #4357f8;
+}
+.card-project {
+    background: #182132;
+    color: #fff;
+}
+button.btnexplore.btn.btn-primary {
+    background-image: linear-gradient(to right, #4aafe8, #5e58c3);
+    padding: 0px 20px;
+    height: 50px;
+}
+.card-project-cnt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+}

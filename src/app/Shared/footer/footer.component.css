@@ -1,0 +1,53 @@
+.footer-section{
+    background:url(../../../assets/images/footerbg.png) #182132;
+    padding: 70px 0px;
+}
+.footer-cnt ul li{
+    color: #fff;
+    font-size: 13px;
+}
+.footer-cnt h4{
+    color: #fff;
+    font-size: 18px;
+}
+.footer-cnt span.material-symbols-outlined {
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    margin-right: 6px;
+}
+.subcribe-cnt p, .footer-logo p{
+    color: #fff;
+    font-size: 14px;
+}
+.subscribe-email {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 8px;
+}
+.footer-logo img{
+    width: 100px;
+}
+i.fa-brands.fa-facebook-f {
+    color: #fff;
+}
+
+i.fa-brands.fa-twitter-f {
+    color: #fff;
+}
+
+i.fa-brands.fa-twitter {
+    color: #fff;
+}
+
+i.fa-brands.fa-instagram {
+    color: #fff;
+}
+
+i.fa-brands.fa-linkedin-in {
+    color: #fff;
+}
+.social-media i {
+  
+    padding-right: 19px;
+}
+
