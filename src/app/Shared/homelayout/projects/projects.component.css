@@ -1,6 +1,5 @@
 .project-section{
     background: #182132;
-    padding: 50px 0px;
 }
 .project-section p{
 color: #fff;
@@ -24,7 +23,6 @@ font-size: 16px;
 }
 .getstarted{
     background-image:linear-gradient(to right, #4aafe8, #5e58c3);
-    padding: 15px;
     border-radius: 5px;
     color: #fff;
     position: relative;
@@ -74,4 +72,8 @@ button.btnexplore.btn.btn-primary {
     flex-wrap: wrap;
     justify-content: flex-start;
     padding: 10px;
+}
+.card {
+    height: 100%;
+    padding: 20px;
 }

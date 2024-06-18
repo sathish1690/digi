@@ -1,5 +1,5 @@
 nav.navbar.custom-nav {
-    background: #182132;
+    background:#010715;
     padding: 0px;
 }
 .custom-nav a.nav-link {
@@ -12,30 +12,55 @@ a.navbar-brand {
  padding-left: 0px;
 }
 li.nav-item {
-    padding: 10px;
-    font-size: 17px;
+    font-size: 15px;
 }
 .nav-logo {
     position: relative;
-    background: #2d97fd;
-    padding: 10px;
+    background-image: linear-gradient(to right, #7ecbf7, #499ae8);
+    padding: 23px;
 }
 a.navbar-brand img{
-    width: 157px;
+    width: 170px;
 }
 a.nav-link.btn.btn-primary {
     background: #0d6efd;
+}
+.navbar-row{
+    width: 100%;
+}
+button.navbar-toggler{
+    background: #fff;
+}
+.header-nav {
+    background: #182132;
 }
 a.navbar-brand:after {
     content: ' ';
     position: absolute;
     width: inherit;
     height: inherit;
-    top: -1px;
+    top: 0px;
     left:100%;
     border-bottom: solid 0px transparent;
     border-left: solid 44px #2d97fd;
     border-right: solid 23px transparent;
-    border-top: solid 71px transparent;
+    border-top: solid 94px transparent;
     z-index: 0;
+}
+.header-support li{
+    font-size:  14px;
+    color: #fff;
+}
+.header-support span {
+    color: #fff;
+}
+i.fa-brands.fa-facebook-f {
+    background-image: linear-gradient(to right, #4aafe8, #5e58c3);
+    padding: 6px 9px 6px 9px;
+    border-radius: 85%;
+}
+i.fa-brands.fa-twitter, i.fa-brands.fa-instagram {
+    background-image: linear-gradient(to right, #4aafe8, #5e58c3);
+    padding: 6px 7px 6px 7px;
+    border-radius: 85%;
 }

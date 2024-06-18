@@ -4,7 +4,6 @@
 }
 section.about-section{
     background:#010715;
-    padding: 0px 0px 70px 0px ;
 }
 .container.card-sec {
     position: relative;
@@ -23,16 +22,12 @@ section.about-section{
 .container.card-sec .material-symbols-outlined{
     color: #376bfc;
     background: #193c5a;
-    padding: 7px;
     border-radius: 5px;
-    margin-bottom: 10px;
 }
 .container.card-sec .card-refer .material-symbols-outlined{
     color: #fff;
     background: #8299ff;
-    padding: 7px;
     border-radius: 5px;
-    margin-bottom: 10px;
 }
 .container.card-sec .arrow.material-symbols-outlined.float-end {
     background: #00001e ! Important;

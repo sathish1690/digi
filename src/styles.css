@@ -4,3 +4,39 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+@media screen and (max-width: 640px) and (min-width: 320px) {
+    .row.feed-div {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 23px;
+        border-bottom: 2px solid #fff
+    }
+    .feedback-cnt img {
+        margin-top: 20px;
+    }
+    .card-project .card-project-cnt p, .card-project .card-project-cnt .btnexplore{
+        margin:20px;
+    }
+    .footer-links{
+        border-top: 2px dotted #fff;
+        padding-top: 20px;
+    }
+    a.navbar-brand:after {
+       display: none;
+    }
+    .getstarted h2{
+        margin: 0px;
+        font-size: 18px;
+    }
+    .connect-btn{
+        font-size: 10px;
+    }
+    .nav-logo{
+        padding: 12px!important;
+    }
+    a.navbar-brand img{
+        width: 100px!important;
+    }
+   
+}

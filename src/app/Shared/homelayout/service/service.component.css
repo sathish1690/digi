@@ -1,6 +1,5 @@
 section.service-section{
     background:url(../../../../assets/images/servicemap.png) #182132;
-    padding: 70px 0px;
     background-size: contain;
 }
 .about-card{
@@ -24,9 +23,7 @@ section.service-section{
 .container.card-sec .material-symbols-outlined{
     color: #376bfc;
     background: #193c5a;
-    padding: 7px;
     border-radius: 5px;
-    margin-bottom: 10px;
 }
 .container.card-sec .card-refer .material-symbols-outlined{
     color: #fff;
@@ -54,7 +51,6 @@ section.service-section{
 .about-cnt .about-card .card-title{
     color: #fff;
     font-size: 26px;
-    margin: 10px 10px;
 }
 .about-cnt .about-card .card-text{
     color: #fff;
@@ -90,6 +86,4 @@ h5.card-title.about-card-title .border-title {
 }
 .container.about-cnt img {
     width: 45px;
-    margin: 20px 5px;
-
 }

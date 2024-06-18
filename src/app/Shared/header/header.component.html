@@ -1,35 +1,59 @@
-<div class="container fixed-top">
-<nav class="navbar navbar-expand-lg custom-nav">
-    <div class="container-fluid">
-        <div class="nav-logo">
-      <a class="navbar-brand" href="#"><img src="../../../assets/images/logo1.png" class="img-fluid"></a>
-    </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<div class="container fixed-top p-0 p-md-2 pt-md-0">
+
+  <nav class="navbar navbar-light navbar-expand-md custom-nav">
+    <div class="container-fluid p-0">
+      <a class="navbar-brand nav-logo " href="#"><img src="../../../assets/images/logo1.png" class="img-fluid"></a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <span class="visually-hidden">Toggle navigation</span>
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blogs</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link btn btn-primary">Get Quote</a>
-          </li>
-        </ul>
-       
+      <div id="navbar" class="collapse navbar-collapse">
+        <div class="row navbar-row mx-0">
+          <div class="col-12 ps-0 ms-auto header-nav">
+            <ul class="navbar-nav float-none float-md-end d-flex justify-content-start">
+              <li class="nav-item p-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+              
+              <li class="nav-item p-2">
+                <a class="nav-link btn btn-primary">Get Quote</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 ps-0 order-md-first header-support">
+            <ul class="list-unstyled">
+              <li class="nav-item float-none float-md-start">
+                  <ul class="list-inline">
+                    <li class="list-inline-item p-2">Monday - Sunday</li><span>|</span>
+                    <li class="list-inline-item p-2">9am - 9pm</li>  <span>|</span>
+                    <li class="list-inline-item p-2"> Customer Support</li>
+                  </ul>
+              </li>
+              <li class="nav-item float-none float-md-end">
+                <ul class="list-inline">
+                  <li class="list-inline-item p-2"> Follow Us </li>
+                  <li class="list-inline-item p-2"> <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li class="list-inline-item p-2"> <a class="nav-link" href="#"> <i class="fa-brands fa-twitter"></i></a></li>
+                  <li class="list-inline-item p-2"> <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
+
 
   </div>
   <app-banner></app-banner>
