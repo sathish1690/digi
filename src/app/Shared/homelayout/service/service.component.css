@@ -21,7 +21,7 @@ section.service-section{
     font-family: "Roboto", sans-serif;
 }
 .container.card-sec .material-symbols-outlined{
-    color: #376bfc;
+    color: #db6f02;
     background: #193c5a;
     border-radius: 5px;
 }
@@ -43,6 +43,7 @@ section.service-section{
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
+    line-height: 35px;
 }
 .container.about-cnt p{
     color: #fff;
@@ -51,6 +52,7 @@ section.service-section{
 .about-cnt .about-card .card-title{
     color: #fff;
     font-size: 26px;
+    font-weight: 600;
 }
 .about-cnt .about-card .card-text{
     color: #fff;
@@ -58,7 +60,7 @@ section.service-section{
 }
 .card.about-card span {
     background: #0e173e;
-    color: #475cab;
+    color: #db6f02;
     padding: 4px;
 }
 
@@ -71,13 +73,13 @@ h5.card-title.about-card-title .border-title {
     margin-right: 3px;
 }
 .card-title.about-compan {
-    color: #0d6efd;
+    color: #fa962c;
     margin-bottom: 20px;
     font-size: 18px;
 
 }
 .card-title.about-compan .border-title {
-    background: #0d6efd;
+    background: #fa962c;
     width: 100px;
     height: 2px;
     transform: rotate(0deg);
@@ -86,4 +88,12 @@ h5.card-title.about-card-title .border-title {
 }
 .container.about-cnt img {
     width: 45px;
+}
+.btn.btn-primary{
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #333;
 }

@@ -9,21 +9,22 @@ import { Component } from '@angular/core';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
+
  aboutcarddata =[
   {
     "title": "Great Experience",
     "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    classNames: ['material-symbols-outlined mb-3 p-2']
+    "image" : "../../../../assets/images/greatteam.png",
   },
   {
     "title": "Referece for Result",
     "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
- 
+    "image" : "../../../../assets/images/refer.png"
   },
   {
     "title": "Experience Team",
     "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-   
+    "image" : "../../../../assets/images/experience.png"
   },
 ];
 

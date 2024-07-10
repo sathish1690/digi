@@ -1,8 +1,8 @@
-<section class="service-section pt-5 pb-5">
+<section class="service-section pt-5 pb-5" id="services">
  
       <div class="container about-cnt mb-4 mt-5">
         <div class="row">
-          <div class="col col-md-6 col-12 col-lg-6">
+          <div class="col col-md-12 col-12 col-lg-6 animate__animated animate__fadeInLeft animate__delay-3s">
             <h3 class="card-title about-compan">What We Do  <span class="border-title"></span></h3>
     
              <h2> The Perfect Services <br>We're Offering</h2>
@@ -14,10 +14,10 @@
                 <button class="btn btn-primary">More Services</button>
             </p>
           </div>
-          <div class="col col-md-6 col-12 col-lg-6">
+          <div class="col col-md-12 col-12 col-lg-6">
             <div class="card-sec">
                 <div class="row">
-                  <div class="col col-md-6 col-12 col-lg-6 mt-3" *ngFor="let servicedtls of servicecarddata">
+                  <div class="col col-md-6 col-12 col-lg-6 mt-3 animate__animated animate__fadeIn animate__delay-3s" *ngFor="let servicedtls of servicecarddata">
                     <div class="card about-card">
                         <div class="card-body">
                             <img src="{{servicedtls.img}}" class="m-2 mb-3 img-fluid" alt="web">

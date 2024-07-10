@@ -6,14 +6,17 @@ import { ProjectsComponent } from './projects/projects.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { BlogComponent } from './blog/blog.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ResquestquoteComponent } from './resquestquote/resquestquote.component';
 
 @Component({
   selector: 'app-homelayout',
   standalone: true,
-  imports: [CarouselModule,AboutComponent, ServiceComponent, FeedbackComponent, ProjectsComponent,PricingComponent, BlogComponent],
+  imports: [CarouselModule,AboutComponent, ServiceComponent, FeedbackComponent, ProjectsComponent,PricingComponent, BlogComponent, ResquestquoteComponent],
+  
   templateUrl: './homelayout.component.html',
   styleUrl: './homelayout.component.css'
 })
 export class HomelayoutComponent {
+ 
 
 }

@@ -4,7 +4,6 @@
 }
 .blog-subtitle{
     color: #0d6efd;
-    margin-bottom: 20px;
     font-size: 18px;
 }
 .blog-title{
@@ -26,7 +25,7 @@
 }
 .blog-card .card-body{
     color: #fff;
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 .blog-card.text-center ul li {
     line-height: 39px;
@@ -49,4 +48,19 @@ span.blog-username {
 }
 .blog-card h3{
  font-size: 25px;
+}
+.blog-card .btn.btn-primary {
+    background-image: linear-gradient(to right, #6dc3f4, #499ae8);
+    border: none;
+    font-size: 15px;
+    width: 50%;
+    text-align: left;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+
+span.fas.fa-arrow-right {
+    float: right;
+    margin-top: 5px;
 }

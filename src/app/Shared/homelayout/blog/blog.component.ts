@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input, ViewChild } from '@angular/core';
 import { CarouselModule, OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
@@ -10,15 +10,17 @@ import { CarouselModule, OwlOptions } from 'ngx-owl-carousel-o';
   styleUrl: './blog.component.css'
 })
 export class BlogComponent {
+  
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: true,
-    autoplay:true,
+    autoplay:false,
     touchDrag: true,
     pullDrag: false,
     dots: false,
     navSpeed: false,
     margin:10,
+    center: true,
     autoHeight:true,
     navText: ['', ''],
     responsive: {

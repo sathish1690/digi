@@ -20,13 +20,13 @@ section.about-section{
     font-family: "Roboto", sans-serif;
 }
 .container.card-sec .material-symbols-outlined{
-    color: #376bfc;
+    color: #db6f02;
     background: #193c5a;
     border-radius: 5px;
 }
 .container.card-sec .card-refer .material-symbols-outlined{
     color: #fff;
-    background: #8299ff;
+    background: #db6f02;
     border-radius: 5px;
 }
 .container.card-sec .arrow.material-symbols-outlined.float-end {
@@ -40,6 +40,7 @@ section.about-section{
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
+    line-height: 35px;
 }
 .container.about-cnt p{
     color: #fff;
@@ -62,13 +63,21 @@ h5.card-title.about-card-title .border-title {
     margin-right: 3px;
 }
 .card-title.about-compan {
-    color: #0d6efd;
+    color: #fa962c;
     margin-bottom: 20px;
     font-size: 18px;
 
 }
+
+.cardimg { 
+    width: 40px;
+    height: 40px;
+    background: #00001e !important;
+    padding: 8px;
+    border-radius: 5px;
+}
 .card-title.about-compan .border-title {
-    background: #0d6efd;
+    background: #fa962c;
     width: 100px;
     height: 2px;
     transform: rotate(0deg);

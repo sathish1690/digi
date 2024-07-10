@@ -11,7 +11,7 @@ font-size: 16px;
     font-weight: bold;
 }
 .project-section span.material-symbols-outlined {
-    color: #376bfc;
+    color: #fa962c;;
     font-size: 36px;
     margin: 0px;
 }
@@ -22,24 +22,27 @@ font-size: 16px;
     background-size: cover;
 }
 .getstarted{
-    background-image:linear-gradient(to right, #4aafe8, #5e58c3);
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
     border-radius: 5px;
     color: #fff;
     position: relative;
     top: -81px;
+    padding: 12px;
 }
 .connect-btn, .connect-btn:hover{
     background: #fff;
     color: #000;
     font-weight: 600;
     font-size: 16px;
+    border: none;
+    margin-top: 10px;
 }
 .getstarted h2{
     margin: 0px;
     font-size: 30px;
 }
 .project-subtitle{
-    color: #0d6efd;
+    color: #fa962c;;
     margin-bottom: 20px;
     font-size: 18px;
 }
@@ -56,24 +59,32 @@ font-size: 16px;
     margin-right: 8px;
 }
 .btn.btn-dark.project-dtls.active {
-    background: #4357f8;
+    background: #db6f02;
+    color: #333;
+    font-weight: 500;
 }
 .card-project {
     background: #182132;
     color: #fff;
 }
 button.btnexplore.btn.btn-primary {
-    background-image: linear-gradient(to right, #4aafe8, #5e58c3);
-    padding: 0px 20px;
-    height: 50px;
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
+    width: 50%;
+    color: #333;
+    font-weight: 500;
+    border: none;
 }
 .card-project-cnt{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding: 10px;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #182132;
 }
 .card {
     height: 100%;
     padding: 20px;
+}
+.project-dtls.btn-dark:last-child{
+ margin-right: 0px;
 }

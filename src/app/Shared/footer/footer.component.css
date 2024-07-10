@@ -1,6 +1,6 @@
 .footer-section{
     background:url(../../../assets/images/footerbg.png) #010715;
-    padding: 70px 0px;
+    padding: 70px 0px 0px;
 }
 .footer-cnt ul li{
     color: #fff;
@@ -50,4 +50,6 @@ i.fa-brands.fa-linkedin-in {
   
     padding-right: 19px;
 }
-
+.footer-bottom  p{
+    font-size: 15px;
+}

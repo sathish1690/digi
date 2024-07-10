@@ -16,14 +16,14 @@ li.nav-item {
 }
 .nav-logo {
     position: relative;
-    background-image: linear-gradient(to right, #7ecbf7, #499ae8);
-    padding: 23px;
+    background-image:linear-gradient(to right, #ff9623, #db6f02);
+    padding: 10px;
 }
 a.navbar-brand img{
-    width: 170px;
+    width: 124px;
 }
 a.nav-link.btn.btn-primary {
-    background: #0d6efd;
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
 }
 .navbar-row{
     width: 100%;
@@ -42,9 +42,9 @@ a.navbar-brand:after {
     top: 0px;
     left:100%;
     border-bottom: solid 0px transparent;
-    border-left: solid 44px #2d97fd;
+    border-left: solid 44px #db6f02;
     border-right: solid 23px transparent;
-    border-top: solid 94px transparent;
+    border-top: solid 97px transparent;
     z-index: 0;
 }
 .header-support li{
@@ -55,12 +55,12 @@ a.navbar-brand:after {
     color: #fff;
 }
 i.fa-brands.fa-facebook-f {
-    background-image: linear-gradient(to right, #4aafe8, #5e58c3);
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
     padding: 6px 9px 6px 9px;
     border-radius: 85%;
 }
 i.fa-brands.fa-twitter, i.fa-brands.fa-instagram {
-    background-image: linear-gradient(to right, #4aafe8, #5e58c3);
+    background: linear-gradient(to bottom, #ff9623,#db6f02);
     padding: 6px 7px 6px 7px;
     border-radius: 85%;
 }

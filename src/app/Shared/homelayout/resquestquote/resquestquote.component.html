@@ -1,0 +1,77 @@
+<section class="requestquote pt-5 pb-5" id="requestquote">
+    <!--<h4 class="requestquote-title text-center mb-4">Request For Quote </h4>-->
+<div class="container mt-5 mb-5">
+    
+    <div class="row">
+        <div class="col-lg-offset-1 col-lg-10 col-12 col-sm-12  requestquotes">
+            <div class="row">
+        <div class="col col-12 col-sm-12 col-lg-6">
+            <h3>Let's Talk</h3>
+            <p class="mb-5">Ask us anything or just say Talk</p>
+
+           <p><span class="material-symbols-outlined">call </span>000-93242-34212</p>
+           <p><span class="material-symbols-outlined"> mail</span>info&#64;gmail.com</p>
+        </div> 
+        <div class="col col-12 col-sm-12 col-lg-6">
+        <div class="">
+            <form class="requestquote-form" [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)">
+                <div class="row">
+                    <div class="col col-md-12 col-lg-6 col-6">
+                <mat-form-field class="full-width">
+                    <mat-label>First Name</mat-label>
+                    <input matInput placeholder="First Name" formControlName="firstname">
+                    <mat-error *ngIf="formGroup.get('firstname').dirty || formGroup.get('firstname').touched">
+                        First Name is required
+                    </mat-error>
+                 
+                </mat-form-field>
+            </div>
+            <div class="col col-md-12 col-lg-6 col-6">
+                <mat-form-field class="full-width">
+                    <mat-label>Last Name</mat-label>
+                    <input matInput placeholder="Last Name" formControlName="lastname">
+                    <mat-error *ngIf="formGroup.get('lastname').dirty || formGroup.get('lastname').touched">
+                        Last Name is required
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+                <!--<div class="col col-md-12 col-lg-12 col-12">
+                    <mat-form-field class="full-width">
+                        <mat-label>Your Subject</mat-label>
+                        <input matInput placeholder="Last Name" formControlName="subject">
+                        <mat-error *ngIf="formGroup.get('subject').dirty || formGroup.get('subject').touched">
+                            Subject is required
+                        </mat-error>
+                      </mat-form-field>
+                </div>-->
+               
+            <div class="col col-md-12 col-lg-12 col-12">
+                <mat-form-field class="full-width">
+                    <mat-label>Enter your email</mat-label>
+                    <input matInput placeholder="Emailaddress" formControlName="email">
+                    <mat-error *ngIf="!formGroup.controls['email'].valid && formGroup.controls['email'].touched">
+                      {{ getErrorEmail() }}
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+                <div class="col col-md-12 col-lg-12 col-12">
+                    <mat-form-field class="full-width">
+                      <mat-label>Leave a comment</mat-label>
+                      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+                    </mat-form-field>
+                </div>
+
+                </div>
+                  
+                    <div class="form-element">
+                        <button mat-raised-button color="primary" type="submit" class="button btn btn-primary" [disabled]="!formGroup.valid">Get A Quote</button>
+                      </div>
+              </form>
+            </div>
+        </div>
+       </div>
+
+    </div>
+</div>
+  </div>
+</section>
